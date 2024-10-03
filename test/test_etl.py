@@ -22,7 +22,7 @@ class test_etl_script(unittest.TestCase):
         
 
     def _create_test_database(self):
-        self.engine = create_engine(f'{test_etl_script.test_db_path}', echo=True)
+        self.engine = create_engine(test_etl_script.test_db_path, echo=True)
 
     def _delete_test_database(self):
         # Delete the test SQLite database
