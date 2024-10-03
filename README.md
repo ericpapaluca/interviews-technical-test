@@ -4,7 +4,7 @@ The objective of this challenge is to gain insights on problem-solving approache
 
 ## Background
 
-A client receives sales data in a text file (CSV format). Each row in this file contains item_id, order_id, product_name, quantity, unit_price.
+A client receives sales data in a text file (CSV format). Each row in this file contains a record with columns of the schema item_id, order_id, product_name, quantity, unit_price.
 
 The client wants to keep this information in a more accessible storage solution (e.g. a database). Therefore they have created a small python ETL tool to store this data in SQLite. On the back of this, they have created a revenue report with the top 2 products that looks like this:
 
